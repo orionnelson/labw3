@@ -62,6 +62,21 @@ The Algorithim I chose was quicksort which begins partitioning the array into tw
 The methods and submethods used for this are partition and swap. 
 
 
+``` Shape.java```
+Abstract Parent Class that implements all of its requirements from ```ShapeProperties.java```. 
+Each shape has a width height color and area and comparison.
+
+```Square.java Rectangle.java Circle.java ```
+Each shape retrives area from Shape and contains its own getter and setter methods. 
+
+```MyPanel``` 
+This Class implements all the main functions used in the program it extends Jpanel and implements methods shapeFactory() for adding shapes to shapeList. orderFactory() which using the sorted shapelist updates the positions of upperX and upperY for shape location. 
+newShapes() calls a new shapeFactory() instance and assigns it to shapeList.
+
+
+
+
+
 
 
 
