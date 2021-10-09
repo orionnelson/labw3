@@ -31,9 +31,11 @@ The second branch of my project included in this description is ``` working-modu
 - Square.java has been Created as a subclass of Rectangle.java it now is able to be constructed with only an lengh.
 - ShapeSort.java has been created to contain all of the required sorting methods. 
 - Changes to My_Panel.java to implement modular design changes.
+- Added Comments and Generated Javadoc.
+- Released Version V1.0.0 as Executable Jar.
 
 
-
+I Diddnt Transfer Comments to the UML so to read Comments view the Javadoc at https://or9.ca/W3LAB
 
 ![Iteration Two ](https://or9.ca/images/lab3_diagram_invert.png)
 
