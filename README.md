@@ -1,4 +1,9 @@
 # ShapeSort
+orionn99
+SN: 216305377
+TA: 
+Sec:  
+
 ## Introduction
 The goal of shapesort is to be able to sort an arbitrary randomly generated list of shapes with diffrent attributes by size. By all means this is a simple task however the task of implementing this Using OOD with each shape as its own class proved more difficult then expected.
 The Principles that I will be using to carry out this design are test driven development as well as iterative development. 
@@ -73,6 +78,29 @@ Each shape retrives area from Shape and contains its own getter and setter metho
 This Class implements all the main functions used in the program it extends Jpanel and implements methods shapeFactory() for adding shapes to shapeList. orderFactory() which using the sorted shapelist updates the positions of upperX and upperY for shape location. 
 newShapes() calls a new shapeFactory() instance and assigns it to shapeList.
 
+```Version Info```
+> Eclipse version 2019-06 (4.12.0) Build id: 20190614-1200
+> UML Lab by Yatta UML
+
+
+
+
+
+
+## Conclusion 
+
+
+> What Worked Well 
+Creating a UML Design and using object oriented tecniques worked well. Using Objects knowlege of its former class.
+
+> What diddnt work well 
+I haddn't written a full java program in quite a while so the initial commit on this project was me getting confused and forgetting how Java worked. 
+
+> What did you learn in your software project
+Quite a lot actually I re familiarised myself with java.
+
+> Reccomendations to Ease completion
+Providing code snipets for Jpanel was very helpfull when Jpanel likes to completly break itself if you do somthing incorrectly.
 
 
 
@@ -91,87 +119,15 @@ newShapes() calls a new shapeFactory() instance and assigns it to shapeList.
 
 
 
-The Idea Behind Tensor Jukebox is is to be able to better predict what music a person will like based on their age gender accent race and emotion.
-
-Accent Detection in Machine Learning models is a newer concept so this project will consist of learning Tensorflow and then eventually working to reverse engineer the submissions for INTERSPEECH AESRC 2020 Challenge.
-
-> NEMO ASR Tutorial and Introduction : https://colab.research.google.com/github/NVIDIA/NeMo/blob/r1.0.0b3/tutorials/asr/01_ASR_with_NeMo.ipynb
-
-> Speech Recognition Training Using an Breakthrough Wav2Vec Model: https://www.kdnuggets.com/2021/03/speech-text-wav2vec.html
-
-> Speaker Identification with NeMo : https://github.com/NVIDIA/NeMo/blob/main/tutorials/speaker_recognition/Speaker_Recognition_Verification.ipynb
-
-> Speech Parsing and Recognition with Nvida Jasper : https://ngc.nvidia.com/catalog/models/nvidia:tlt-jarvis:speechtotext_english_jasper
-
-> Nvidia auto Punctuation Methods : https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/stable/nlp/punctuation_and_capitalization.html
-
-```A Python3 Project ```
-
-Shortlink: or9.ca/jbox
-
-# Libraries In Use
- *BACKGROUND BASED ON ACCENT - Not Final*
-> https://gitee.com/ephemeroptera/arnet.git
- 
- *ETHNICITY GENDER AND AGE*
- 
-> https://github.com/serengil/deepface
-
-# Future Libraries and Needed Features to look out for
-
-> Spotify Bluetooth Implementation
-
-> Apple Music Bluetooth Implementation
-
-> Better Emotion Tracking Libraries
-
-> Statistics on Peak Music Stagnation
-
-> List of Intergenerational Songs
-
-> Music Prefrences Based on Age Gender and Major Catagories of that Group.
-
-> Boring Database Stuff
 
 
-## Intructions to install Complete:
-
-If you are having trouble following the install steps try following the workflow located in ```.github/workflows/python-app.yml```
-Execute the commands found under ```Install dependencies``` and execute these commands in an admin command line.
-
-change ```cu110``` to the version of ```cuda``` you are using or instead use ```cpu``` in its place if you do not have an Nvidia GPU. 
 
 
-Install MinGW and make sure that gcc is working on system path.
 
-- Do this like me first install choco in powershell https://chocolatey.org/install and run the ps1 script.
-- make sure choco is on system path
-- Then do  ```choco install mingw``` 
 
-Follow this tutorial to get a general understanding of Git bash https://kbroman.org/github_tutorial/pages/first_time.html
 
-## The Command Needed to download the repo is
 
-```git clone --recurse-submodules git@github.com:orionnelson/tensor-jukebox```
-or
-```git lfs clone``` *You want to work on wav2vec model.
-```git lfs clone --recurse-submodules git@github.com:orionnelson/tensor-jukebox```
 
-## Before Installing Requirements First Install both Cmake and Visual Studio Cmake addons.
 
-Follow this tutorial here https://medium.com/analytics-vidhya/how-to-install-dlib-library-for-python-in-windows-10-57348ba1117f
-
-Next I would recommend setting up ```pyvenv``` https://docs.python.org/3/library/venv.html use ```python -m ``` not ```python3```
-```
-1 : Get cmake  >> pip install cmake
-2 : Install dlib  >> pip install dlib -vvv
-WAIT YOU HAVE CUDA WORKING RIGHT?
-3 : pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html # cu110 is the cuda version max is 111 for torch without extra work.
- Then >> pip install -r requirements.txt
-4 : If you get an error that is not 'face was not detected' try reinstalling keras 2.6.0rc0 and it will fix the issue.
-```
-Install takes >30 min due to slow repo's will fix later.
-
-## Make sure a webcam is connected in order to test ```DeepFaceExample.py```
 
 
