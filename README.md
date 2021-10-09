@@ -25,6 +25,8 @@ Included is an rough UML diagram for the initial iteration of ShapeSort.
 
 The second branch of my project included in this description is ``` working-modular ```. Within this iteration I was able to acomplish the following 
 - Interface ShapeProperties is the guiding interface for shape and includes all methods that Shape must complete the requirements needed gained from ```working-trash```
+
+- Design patterns : Shape is an abstract Bridge and Proxy Class (Structural) shapeFactory() is an Factory Method (Creational).
 - Shape.java created using ShapeProperties it is the parent class and will handle all further comparisons or added shapes which have not already been implemented.
 - Shape.java optionally takes care of getArea() instead of refering to subclass.getArea()  
 - MyRectangle and MyCircle have been modified to be a subclass of shape and now most getters and setters interact with parent Shape.java
@@ -35,9 +37,14 @@ The second branch of my project included in this description is ``` working-modu
 - Released Version V1.0.0 as Executable Jar.
 
 
-I Diddnt Transfer Comments to the UML so to read Comments view the Javadoc at https://or9.ca/W3LAB
+I diddnt Transfer Comments to the UML becuse it was cluttered so to read Comments view the Javadoc at https://or9.ca/W3LAB 
 
 ![Iteration Two ](https://or9.ca/images/lab3_diagram_invert.png)
+
+## Object Oriented Design Principles
+
+Polymorphism: Every Shape Subclass  Square, Circle, Rectangle inherits similar shadow methods to its parent.
+Inheritance: getColor() is inherited by every Shape and the parent method is used.
 
 
 
