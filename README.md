@@ -78,6 +78,12 @@ Each shape retrives area from Shape and contains its own getter and setter metho
 This Class implements all the main functions used in the program it extends Jpanel and implements methods shapeFactory() for adding shapes to shapeList. orderFactory() which using the sorted shapelist updates the positions of upperX and upperY for shape location. 
 newShapes() calls a new shapeFactory() instance and assigns it to shapeList.
 
+
+
+
+
+Video of COde Running https://www.youtube.com/watch?v=EFbqVoXCO7g
+
 ```Version Info```
 > Eclipse version 2019-06 (4.12.0) Build id: 20190614-1200
 
