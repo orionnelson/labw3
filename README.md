@@ -18,7 +18,7 @@ Under this first iteration here are some of the things I reasoned.
 - There is a need for a Shape Class which would contain generic attributes common in every shape. Each Shape needs its own Constructor.
 - Compareto Needs an OOD method of generic comparison as a replacement for My_Panel method compare(Object a , Object b ).
 -  ```MyPanel.java , My_Circle.java , My_Rectangle.java ```
-![Iteration One ](https://or9.ca/images/lab3_diagram_invert.png)
+![Iteration One ](https://or9.ca/images/lab3r1.png)
 Included is an rough UML diagram for the initial iteration of ShapeSort.
 
 ## Iteration 2 Modular OOP Oriented Iteration of ShapeSort
