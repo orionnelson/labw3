@@ -91,15 +91,23 @@ newShapes() calls a new shapeFactory() instance and assigns it to shapeList.
 
 
 > What Worked Well 
+
+
 Creating a UML Design and using object oriented tecniques worked well. Using Objects knowlege of its former class.
 
 > What diddnt work well 
+
+
 I haddn't written a full java program in quite a while so the initial commit on this project was me getting confused and forgetting how Java worked. 
 
 > What did you learn in your software project
+
+
 Quite a lot actually I re familiarised myself with java.
 
 > Reccomendations to Ease completion
+
+
 Providing code snipets for Jpanel was very helpfull when Jpanel likes to completly break itself if you do somthing incorrectly.
 
 
