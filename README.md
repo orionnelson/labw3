@@ -36,6 +36,9 @@ The second branch of my project included in this description is ``` working-modu
 - Added Comments and Generated Javadoc.
 - Released Version V1.0.0 as Executable Jar.
 
+> Does this second class diagram yields a better design than your first class diagram?
+
+This second UML is a much better design then the first as it takes into account inheritance and Polymorphism. THe first does not follow the correct project requirements and is not an ideal design despite being functional.
 
 I diddnt Transfer Comments to the UML becuse it was cluttered so to read Comments view the Javadoc at https://or9.ca/W3LAB 
 
@@ -44,7 +47,29 @@ I diddnt Transfer Comments to the UML becuse it was cluttered so to read Comment
 ## Object Oriented Design Principles
 
 Polymorphism: Every Shape Subclass  Square, Circle, Rectangle inherits similar shadow methods to its parent.
+
 Inheritance: getColor() is inherited by every Shape and the parent method is used.
+
+Abstraction: isSquare() is an example of abstraction since it is only used in rectangle which is the only time we are unsure if an rectangle is a square.  This is not relevent to any other method 
+
+Encapsulation : Many of the functions inside of MyPanel are not relevent to other classes outside of MyPanel. 
+
+## Design Implementation.
+
+```SortShape.java```
+
+The Algorithim I chose was quicksort which begins partitioning the array into two parts on either side of the pivot.   The first part is then sorted and the second is sorted, swapped with the original second part, and then the original first part is swapped  back into place.
+The methods and submethods used for this are partition and swap. 
+
+
+
+
+
+
+
+
+
+
 
 
 
