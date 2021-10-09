@@ -9,7 +9,7 @@ The goal of shapesort is to be able to sort an arbitrary randomly generated list
 The Principles that I will be using to carry out this design are test driven development as well as iterative development. 
 
 Since the goal of this project is simple I chose Iterative method of development since the project is generally of low compleity and also test driven development.
-Classes Are Stuctured In Order of increasing Complexity Regarding the Shape Method 
+Classes Are Structured in order of increasing Complexity Regarding the Shape Method 
 
 ----
 ##  Iteration 1  First Working Version
