@@ -11,13 +11,12 @@ Classes Are Stuctured In Order of increasing Complexity Regarding the Shape Meth
 The initial iterative design  branch ``` working-trash ``` consisted of a main My_Panel Method which would include its own quicksort method. Instead of an Generic Shape class instead on this iteration. I instead started writing in Java the same way I would in Python. 
 
 Under this first iteration here are some of the things I reasoned.
-```
+
 - Every Square is a Rectangle so therefore the Square class is not needed or should be a subclass of rectangle. 
 - My_Panel currently contains the sorting method It should not contain quicksort function however.
 - Circles and Rectangles need both direct and Object Oriented way of comparing to eachother one way of doing this is implementing direct comparison as in this iteration however this aproach is not scaleable.
 - There is a need for a Shape Class which would contain generic attributes common in every shape. Each Shape needs its own Constructor.
 - Compareto Needs an OOD method of generic comparison as a replacement for My_Panel method compare(Object a , Object b ).
-```
 : Three Classes  ```MyPanel , My_Circle , My_Rectangle ```
 ![Iteration One ](https://or9.ca/images/lab3_diagram_invert.png)
 Included is an rough UML diagram for the initial iteration of ShapeSort.
