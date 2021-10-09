@@ -17,7 +17,7 @@ Under this first iteration here are some of the things I reasoned.
 - Circles and Rectangles need both direct and Object Oriented way of comparing to eachother one way of doing this is implementing direct comparison as in this iteration however this aproach is not scaleable.
 - There is a need for a Shape Class which would contain generic attributes common in every shape. Each Shape needs its own Constructor.
 - Compareto Needs an OOD method of generic comparison as a replacement for My_Panel method compare(Object a , Object b ).
--  ```MyPanel.java , My_Circle.java , My_Rectangle.java ```
+-  ```MyPanel.java , MyCircle.java , MyRectangle.java ```
 ![Iteration One ](https://or9.ca/images/lab3r1.png)
 Included is an rough UML diagram for the initial iteration of ShapeSort.
 
@@ -27,7 +27,7 @@ The second branch of my project included in this description is ``` working-modu
 - Interface ShapeProperties is the guiding interface for shape and includes all methods that Shape must complete the requirements needed gained from ```working-trash```
 - Shape.java created using ShapeProperties it is the parent class and will handle all further comparisons or added shapes which have not already been implemented.
 - Shape.java optionally takes care of getArea() instead of refering to subclass.getArea()  
-- My_Rectangle and My_Circle have been modified to be a subclass of shape and now most getters and setters interact with parent Shape.java
+- MyRectangle and MyCircle have been modified to be a subclass of shape and now most getters and setters interact with parent Shape.java
 - Square.java has been Created as a subclass of Rectangle.java it now is able to be constructed with only an lengh.
 - ShapeSort.java has been created to contain all of the required sorting methods. 
 - Changes to My_Panel.java to implement modular design changes.
