@@ -1,8 +1,8 @@
 # ShapeSort
 orionn99
 SN: 216305377
-TA: 
-Sec:  
+TA: kmridul@yorku.ca
+Sec: 3311 F Sec A
 
 ## Introduction
 The goal of shapesort is to be able to sort an arbitrary randomly generated list of shapes with diffrent attributes by size. By all means this is a simple task however the task of implementing this Using OOD with each shape as its own class proved more difficult then expected.
