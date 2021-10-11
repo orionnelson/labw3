@@ -107,10 +107,6 @@ Sort Button Correcly Calls
 - Created test plans and recorded results with visual representations of passes and fails. 
 
 
-
-Set up a verification test plan along with a functionality one
-
-
 Video of Code Running https://www.youtube.com/watch?v=EFbqVoXCO7g
 
 ```Version Info```
