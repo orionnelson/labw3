@@ -111,7 +111,7 @@ Sort Button Correcly Calls
 Set up a verification test plan along with a functionality one
 
 
-Video of COde Running https://www.youtube.com/watch?v=EFbqVoXCO7g
+Video of Code Running https://www.youtube.com/watch?v=EFbqVoXCO7g
 
 ```Version Info```
 > Eclipse version 2019-06 (4.12.0) Build id: 20190614-1200
