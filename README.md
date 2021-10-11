@@ -80,6 +80,35 @@ newShapes() calls a new shapeFactory() instance and assigns it to shapeList.
 
 
 
+## Test Driven UI Development 
+
+# Smoke Phase 
+Break down the UI elements and sort them to create specific test plans.
+Both Sort and Shape Generation buttons trigger their respective functions. 
+
+New Shape Generation Button Correctly Calls 
+
+- newShapes();
+
+ - repaint();
+
+Sort Button Correcly Calls 
+
+- sort();
+ 
+- orderFactory();
+
+- repaint();
+
+
+# Functionality Phase
+
+- UI of the buttons on Generation Dissapears in order to not block shapes.
+- Created test plans and recorded results with visual representations of passes and fails. 
+
+
+
+Set up a verification test plan along with a functionality one
 
 
 Video of COde Running https://www.youtube.com/watch?v=EFbqVoXCO7g
